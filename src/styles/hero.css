@@ -1,0 +1,23 @@
+.hero-section {
+  padding: 100px 8% 80px;
+  text-align: center;
+}
+
+.hero-box h1 {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.hero-box h2 {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #6366f1;
+}
+
+.hero-box p {
+  margin: 18px auto 0;
+  max-width: 650px;
+  font-size: 17px;
+  color: #475569;
+  line-height: 1.7;
+}
