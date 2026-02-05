@@ -4,11 +4,22 @@ const Hero = () => {
   return (
     <section id="home" className="hero-section">
       <div className="hero-box">
-        <h1>Prajna EP</h1>
-        <h2>Gesix GeoAI Intern</h2>
-        <p>
-          Aspiring frontend developer with hands-on experience in React, focused
-          on building clean, responsive, and user-friendly web applications.
+        <h1>
+          Prajna <span>EP</span>
+        </h1>
+
+        <h2>Gesix GeoAI Intern · Frontend Developer</h2>
+
+        <p className="hero-desc">
+          I’m a frontend-focused developer who enjoys building clean,
+          responsive, and user-friendly web interfaces using React and modern
+          JavaScript. I like working on real-world projects, refining UI
+          details, and continuously improving my development skills through
+          hands-on experience.
+        </p>
+
+        <p className="hero-sub">
+          Scroll down to explore my skills, projects, and academic journey.
         </p>
       </div>
     </section>

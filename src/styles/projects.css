@@ -1,5 +1,7 @@
 .projects-section {
-  padding: 80px 8%;
+  padding: 80px 10px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 60%);
 }
 
 .projects-wrapper {
@@ -56,14 +58,14 @@
 }
 
 .btn.secondary {
-  border: 1px solid #6366f1;
-  color: #6366f1;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #334155;
 }
 
 .btn.secondary:hover {
-  background: #6366f1;
-  color: white;
-  transition: 0.2s ease;
+  border-color: #6366f1;
+  color: #6366f1;
 }
 
 .projects-wrapper {
@@ -75,6 +77,8 @@
 .project-card:hover {
   transform: translateY(-4px);
   transition: 0.2s ease;
+  box-shadow: 0 15px 30px rgba(99, 102, 241, 0.18);
+  border: 1px solid #6366f1;
 }
 
 .project-skills {

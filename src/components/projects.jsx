@@ -3,7 +3,7 @@ import "../styles/projects.css";
 
 const Projects = () => {
   return (
-    <section id="projects" className="page-projects-section">
+    <section id="projects" className="projects-section">
       <div className="container">
         <h2 className="section-title">Projects</h2>
 
@@ -12,7 +12,7 @@ const Projects = () => {
             title="Todo Hub"
             description="A responsive task management web application that helps users create, update, and organize daily tasks efficiently."
             skills={["HTML", "CSS", "JavaScript", "React"]}
-            github="#"
+            github="https://github.com/PrajnaEP/ToDoHub"
             live="https://to-do-hub.vercel.app/"
           />
 
@@ -20,7 +20,7 @@ const Projects = () => {
             title="Timetable Genie"
             description="A smart scheduling application developed to generate conflict-free academic timetables for educational institutions."
             skills={["HTML", "CSS", "JavaScript", "React"]}
-            github="#"
+            github="https://github.com/PrajnaEP/TimeTable_Genie"
             live="https://timetable-genie-v2.vercel.app/"
           />
 
@@ -28,7 +28,7 @@ const Projects = () => {
             title="Farm To Table"
             description="A web platform designed to connect farmers directly with consumers, promoting transparency and fair pricing."
             skills={["HTML", "CSS", "JavaScript", "React"]}
-            github="#"
+            github="https://github.com/PrajnaEP/FARM_TO_TABLE"
             live="https://farm-to-table-two.vercel.app/"
           />
 
@@ -36,7 +36,7 @@ const Projects = () => {
             title="Resume Build"
             description="An interactive resume builder that allows users to generate professional resumes using structured input forms."
             skills={["HTML", "CSS", "JavaScript", "React"]}
-            github="#"
+            github="https://github.com/PrajnaEP/ResuBuild"
             live="https://resu-build.vercel.app/"
           />
         </div>

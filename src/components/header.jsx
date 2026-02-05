@@ -28,14 +28,6 @@ const Header = () => {
           <FaProjectDiagram />
           <span className="nav-text">Projects</span>
         </a>
-        <a href="#education">
-          <FaGraduationCap />
-          <span className="nav-text">Education</span>
-        </a>
-        <a href="#certifications">
-          <FaCertificate />
-          <span className="nav-text">Certifications</span>
-        </a>
       </nav>
     </header>
   );
